@@ -15,3 +15,11 @@ function keepGoing(array, changeValue, skipValue) {
     }
     return array
   }
+
+function findBy(array, findFN) {
+  for (let i = o; i <array.length; i++) {
+    if (findFN == array[i])
+    return array
+    else return null
+  }
+}
